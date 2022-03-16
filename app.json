@@ -1,7 +1,7 @@
 {
-       "name": "Zeus",
+       "name": "Shiva",
       "description": "An Anime themed Telegram group management bot.",
-      "logo": "https://telegra.ph/file/ba1a1b1bfa6007af5946e.jpg",
+      "logo": "https://telegra.ph/file/7dee5329799752c6d4c66.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +9,7 @@
          "manager",
          "Zeus"
       ],   
-   "repository": "https://github.com/ctzfamily/ZeusXRobot",
+   "repository": "https://github.com/Yesawini12345/ZeusXRobot",
    "addons": [
       {
          "options": {
@@ -46,7 +46,7 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "CtzFamily"
+         "value": "Yuvi1poke_lover"
       },
       "INFOPIC": {
          "description": "userinfo picture Show In Info.",
