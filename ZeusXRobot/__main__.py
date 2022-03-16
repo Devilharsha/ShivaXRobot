@@ -4,9 +4,9 @@ import random
 import re
 from sys import argv
 from typing import Optional
-from platform import python_version #ZeusXRobot
+from platform import python_version #Shivarobot
 
-from ZeusXRobot import (
+from Shivarobot import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -24,10 +24,10 @@ from ZeusXRobot import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from ZeusXRobot.modules import ALL_MODULES
-from ZeusXRobot.modules.helper_funcs.chat_status import is_user_admin
-from ZeusXRobot.modules.helper_funcs.misc import paginate_modules
-from ZeusXRobot.modules.disable import DisableAbleCommandHandler
+from Shivarobot.modules import ALL_MODULES
+from Shivarobot.modules.helper_funcs.chat_status import is_user_admin
+from Shivarobot.modules.helper_funcs.misc import paginate_modules
+from Shivarobot.modules.disable import DisableAbleCommandHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update, __version__ as ptbver
 from telegram.error import (
     BadRequest,
@@ -79,12 +79,12 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-──『[GOD OF THUNDER](https://telegra.ph/file/4c33a90f7df190fd81763.jpg)』──
+──『[King of cartoons](https://telegra.ph/file/7dee5329799752c6d4c66.jpg)』──
 
 *Hello User!!*
-𝐇𝐞𝐲 𝐈'𝐦 [๖ۣۜZΞUS༻](https://en.m.wikipedia.org/wiki/Zeus),👋
-𝐈 𝐀𝐦 𝐀 𝐆𝐫𝐞𝐞𝐤 𝐌𝐲𝐭𝐡𝐨𝐥𝐨𝐠𝐲 𝐆𝐨𝐝 
-𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐈 𝐖𝐢𝐥𝐥 𝐃𝐞𝐬𝐭𝐫𝐨𝐲 𝐄𝐯𝐢𝐥𝐬 𝐖𝐢𝐭𝐡 𝐌𝐲 𝐓𝐡𝐮𝐧𝐝𝐞𝐫...
+𝐇𝐞𝐲 𝐈'𝐦 [Shiva](https://en.m.wikipedia.org/wiki/Shivarobot),👋
+𝐈 𝐀𝐦 𝐀 Best Group manager 
+𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐈 𝐖𝐢𝐥𝐥 𝐃𝐞𝐬𝐭𝐫𝐨𝐲 keep your group active 
 
 ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』"""
 STICKERS = (
@@ -96,20 +96,20 @@ buttons = [
     [
         InlineKeyboardButton(
                             text="☑️ SUBMIT GOD ZEUS ☑️",
-                            url="t.me/ZeusXRobot?startgroup=true"),
+                            url="t.me/Shivarobot?startgroup=true"),
                     ],
                    [
-                       InlineKeyboardButton(text="💓Source", url="https://github.com/Ctzfamily/ZeusXRobot"),
-                       InlineKeyboardButton(text="📊 Network", url="https://t.me/PegasusBots"),
-                       InlineKeyboardButton(text="🔔 Logs", url="https://t.me/ZeusXRobotlogs"),
+                       InlineKeyboardButton(text="💓Source", url=https://github.com/Yesawini12345/TheShiva"),
+                       InlineKeyboardButton(text="📊 Network", url="https://t.me/SHIVAUPDATES"),
+                       InlineKeyboardButton(text="🔔 Logs", url="https://t.me/ShivaSupportChat"),
                      ],
                     [                  
                        InlineKeyboardButton(
                              text="👫 Freedom",
-                             url=f"https://t.me/UnitedSupport"),
+                             url=f"https://t.me/SHIVAUPDATES"),
                        InlineKeyboardButton(
-                             text="⚡ ZeusUpdates",
-                             url=f"https://t.me/Zeusupdates"),
+                             text="ShivaUpdates",
+                             url=f"https://t.me/ShivaSupportChat"),
                      ],
                     [
                     InlineKeyboardButton(text="🔐 Open commads 🔐", callback_data="help_back"
@@ -133,8 +133,8 @@ List of all the Modules:
 )
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """t.me/unitedsupport"""
-HELP_IMG= "https://telegra.ph/file/5f296f959250d7cd88b09.jpg"
+DONATE_STRING = """https://t.me/ShivaSupportChat"""
+HELP_IMG= "https://telegra.ph/file/cb6537d2919136d3440e5.jpg"
 
 
 IMPORTED = {}
@@ -712,7 +712,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}","*Zeus Is Ready ⚡*", parse_mode=ParseMode.MARKDOWN) 
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}","*Shiva Is Ready ⚡*", parse_mode=ParseMode.MARKDOWN) 
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
