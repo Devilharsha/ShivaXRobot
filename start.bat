@@ -1,4 +1,4 @@
 @echo off
-TITLE Shiva 
-:: Enables virtual env mode and then starts Zeus
-env\scripts\activate.bat && py -m Shiva 
+TITLE Shivarobot 
+:: Enables virtual env mode and then starts Shiva 
+env\scripts\activate.bat && py -m Shivarobot 
