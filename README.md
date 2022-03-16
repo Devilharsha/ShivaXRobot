@@ -1,5 +1,5 @@
 
-<h1 align="center"><br KING OF CARTOON </b></h1>
+<h1 align="center"><br ❌KING OF CARTOON❌ </b></h1>
 
 <h4 align="center">A Advanced Powerful, Smart And Intelligent Group Management Bot With New And Powerful Features <br> ... Written with Pyrogram and Telethon...</h4>
 <p align='center'>
@@ -20,7 +20,7 @@
 
 Your star's my motivation 😞 Going to fork hit a star 😊 | thanks for supports
 
-## Available on Telegram as [@ZeusXRobot](https://t.me/Shiva_ProBot)
+## Available on Telegram as [@Shiva_ProBot](https://t.me/Shiva_ProBot)
 
 ## ✨ Deploy to Heroku ✨
 
