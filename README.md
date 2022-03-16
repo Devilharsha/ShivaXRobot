@@ -46,7 +46,7 @@ Your star's my motivation 😞 Going to fork hit a star 😊 | thanks for suppor
 - Image-Editorbot - module
 
 
-## REPO MADE BY [Nandha (:](t.me/ctzfamily) | `ᴏᴡɴᴇʀ`
+## REPO MADE BY [Yesawini Yuvaraj(:](t.me/Yuvi1poke_lover) | `ᴏᴡɴᴇʀ`
 
 
 # 🗡️ Join our Support & Updates
