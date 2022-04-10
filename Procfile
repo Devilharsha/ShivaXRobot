@@ -1,3 +1,3 @@
-worker: python3 -m Shivarobot 
-web: python3 -m Shivarobot 
+worker: python3 -m ZeusXRobot
+web: python3 -m ZeusXRobot 
 ps:scale worker=1
